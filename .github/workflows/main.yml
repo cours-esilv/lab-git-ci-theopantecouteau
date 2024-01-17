@@ -1,6 +1,10 @@
 name: Java CI with Maven
 
-on: [push, pull_request]  # This triggers the workflow on push or pull request events
+on:
+  push:
+    branches:
+      - main
+      - 'feature/*'
 
 permissions: write-all
 
