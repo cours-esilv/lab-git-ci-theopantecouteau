@@ -2,6 +2,8 @@ name: Java CI with Maven
 
 on: [push, pull_request]  # This triggers the workflow on push or pull request events
 
+permissions: write-all
+
 jobs:
   build:
     runs-on: ubuntu-latest  # Specifies the type of runner to use
